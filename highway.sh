@@ -5,9 +5,9 @@ sudo systemctl enable httpd
 mkdir -p webfiles
 cd webfiles
 sudo wget https://templatemo.com/tm-zip-files-2020/templatemo_520_highway.zip
-sudo unzip -o 520_highway.zip
+sudo unzip -o 2118_chilling_cafe.zip
 sudo rm -rf /var/www/html/*
-sudo cp -r 520_highway.zip/* /var/www/html/
+sudo cp -r 2118_chilling_cafe/* /var/www/html/
 cd ..
 sudo rm -rf webfiles
 sudo systemctl restart httpd
